@@ -1,0 +1,502 @@
+/* ---------- Base Layout ---------- */
+html,
+body {
+    transform: none !important;
+}
+
+body {
+    font-family: "Comic Relief", "Inter", system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    /* Establish positioning context */
+    min-height: 100vh;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* ---------- Banner ---------- */
+.banner {
+    background-image: url("/static/shork.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.lower_half {
+    background-image: url("/static/white2.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.dark-mode .lower_half {
+    background-image: url("/static/blacc3.webp") !important;
+    /* optional alternate for dark mode */
+}
+
+/* ---------- Content Container ---------- */
+.content {
+    background-color: white;
+    margin-top: -100px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dark-mode .content {
+    background-color: #1f1f1f;
+}
+
+/* ---------- Headers ---------- */
+h1 {
+    border-bottom: 1px solid #a2a9b1;
+    font-family: "Comic Relief", system-ui;
+    font-weight: "700";
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 0.3em;
+}
+
+/* ---------- Form Elements ---------- */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select {
+    margin-bottom: 10px;
+}
+
+/* ---------- Results Container ---------- */
+.result {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    overflow-x: auto;
+}
+
+/* ---------- Table ---------- */
+table {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+    font-size: 0.95em;
+    table-layout: auto;
+    word-wrap: break-word;
+}
+
+th,
+td {
+    border: 1px solid #a2a9b1;
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+    max-width: 300px;
+}
+
+th {
+    background-color: #eaecf0;
+    font-weight: bold;
+}
+
+/* Make Reproduction column fixed width */
+td.repro-yes,
+td.repro-no {
+    width: 60px;
+}
+
+/* ---------- Conditional Coloring ---------- */
+.profit-positive {
+    color: #3eb42f !important;
+}
+
+.profit-negative {
+    color: red !important;
+}
+
+.repro-yes {
+    color: #3eb42f !important;
+    text-align: center;
+}
+
+.repro-no {
+    color: red !important;
+    text-align: center;
+}
+
+/* ---------- Rarity Coloring ---------- */
+
+.rarity-common {
+    color: #899386 !important;
+    font-weight: bold;
+}
+
+.rarity-uncommon {
+    color: #6fd957 !important;
+    font-weight: bold;
+}
+
+.rarity-rare {
+    color: #5ec8f2 !important;
+    font-weight: bold;
+}
+
+.rarity-epic {
+    color: #e15ef2 !important;
+    font-weight: bold;
+}
+
+.rarity-legendary {
+    color: #e8ed61 !important;
+    font-weight: bold;
+}
+
+.rarity-mythical {
+    color: #ed7961 !important;
+    font-weight: bold;
+}
+
+.rarity-fishy {
+    color: #ed61bc !important;
+    font-weight: bold;
+}
+
+/* ---------- Rank Highlighting ---------- */
+.rank-1 td {
+    background-color: #fad67a !important;
+    /* Gold */
+}
+
+.rank-2 td {
+    background-color: #e6e1d8 !important;
+    /* Silver */
+}
+
+.rank-3 td {
+    background-color: #deb373 !important;
+    /* Bronze */
+}
+
+/* Only apply dark text color to cells that are NOT conditionally colored */
+.rank-1 td:not(.profit-positive):not(.profit-negative):not(.repro-yes):not(.repro-no):not(.rarity-uncommon):not(.rarity-rare):not(.rarity-epic):not(.rarity-legendary):not(.rarity-mythical):not(.rarity-fishy),
+.rank-2 td:not(.profit-positive):not(.profit-negative):not(.repro-yes):not(.repro-no):not(.rarity-uncommon):not(.rarity-rare):not(.rarity-epic):not(.rarity-legendary):not(.rarity-mythical):not(.rarity-fishy),
+.rank-3 td:not(.profit-positive):not(.profit-negative):not(.repro-yes):not(.repro-no):not(.rarity-uncommon):not(.rarity-rare):not(.rarity-epic):not(.rarity-legendary):not(.rarity-mythical):not(.rarity-fishy) {
+    color: #444;
+}
+
+
+
+/* ---------- Dark Mode Table Fixes ---------- */
+.result table {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.result th {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.result td {
+    background-color: white;
+    border: 1px solid black;
+    color: inherit;
+}
+
+
+body.dark-mode .result table {
+    background-color: #1e1e1e;
+    border: 1px solid #666;
+}
+
+body.dark-mode .result th,
+body.dark-mode .result td {
+    background-color: #1e1e1e;
+    border: 1px solid #666;
+    /* no color override */
+}
+
+body.dark-mode .lower-half {
+    background-image: url("/static/blacc.jpg") !important;
+}
+
+#darkModeToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#darkModeToggle svg {
+    width: 24px;
+    height: 24px;
+}
+
+body.dark-mode #darkModeToggle {
+    color: #fff;
+    /* white in dark mode */
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9em;
+    color: #666;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+    margin-top: 60px;
+}
+
+.dark-mode .site-footer {
+    background-color: #121212;
+    color: #aaa;
+    border-top: 1px solid #333;
+}
+
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+    align-items: flex-start;
+    /* ✅ This fixes vertical alignment */
+}
+
+
+.side-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+    min-width: 200px;
+    justify-content: flex-end;
+}
+
+select:focus {
+    border: 2px solid #f2a145;
+    outline: none;
+    background-color: #f2a145;
+}
+
+.dark-mode select:focus {
+    background-color: #5083ea;
+    border-color: #4a90e2;
+}
+
+.dropdown-checklist {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 200px;
+    border-radius: 6px;
+    border-color: #e48642;
+}
+
+.dark-mode .dropdown-checklist {
+    background-color: #1e1e1e;
+    color: rgb(181, 174, 174);
+    border-color: #5dbaf9;
+}
+
+.dropdown-checklist label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.dropdown-checklist input[type="checkbox"]:checked+span {
+    font-weight: bold;
+}
+
+/* Light mode checkboxes (default look) */
+.dropdown-checklist input[type="checkbox"] {
+    accent-color: #61aedb;
+}
+
+/* Dark mode checkboxes */
+.dark-mode .dropdown-checklist input[type="checkbox"] {
+    accent-color: #eaa454;
+}
+
+input[type="text"],
+input[type="number"] {
+    font-size: 1rem;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 250px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.dark-mode input[type="text"],
+.dark-mode input[type="number"] {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #555;
+}
+
+input[name="top_n"] {
+    width: 60px;
+    padding: 4px 6px;
+    text-align: center;
+}
+
+.main-wrapper {
+    display: flex;
+    margin-top: 160px;
+    padding: 0 40px;
+    gap: 20px;
+    position: relative;
+}
+
+.content {
+    flex: 1;
+    max-width: 900px;
+}
+
+.side-boxes {
+    width: 250px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 100px;
+    /* Add this to pull boxes slightly left */
+}
+
+.side-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .side-box {
+    background-color: #1f1f1f;
+}
+
+.side-box h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+.dark-mode .side-box h3 {
+    border-bottom-color: #333;
+}
+
+.log-summary {
+    width: 240px;
+    max-height: 80vh;
+    margin-top: -100px;
+    overflow-y: auto;
+    background-color: #f1f1f1;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .log-summary {
+    background-color: #333;
+    color: #fff;
+}
+
+.rarity-label.rarity-common {
+    color: #999;
+}
+
+.rarity-label.rarity-uncommon {
+    color: #4caf50;
+}
+
+.rarity-label.rarity-rare {
+    color: #2196f3;
+}
+
+.rarity-label.rarity-epic {
+    color: #9c27b0;
+}
+
+.rarity-label.rarity-legendary {
+    color: #ff9800;
+}
+
+.rarity-label.rarity-mythical {
+    color: #f44336;
+}
+
+.rarity-label.rarity-fishy {
+    color: #00bcd4;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.95);
+    }
+}
+
+.custom-popup {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0a0a0a;
+    border: 2px solid #ff3c3c;
+    padding: 30px 40px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f20101;
+    border-radius: 8px;
+    z-index: 9999;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Comic Relief', sans-serif;
+    max-width: 80%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}

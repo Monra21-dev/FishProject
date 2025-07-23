@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>OAFP Fish Explorer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-mode">
+
+    <div id="barrelPopup" class="custom-popup">
+        <strong>HELL NAH BRO WYD? 💀 Delete all your Barrel Eye RN!</strong>
+    </div>
+
+    <div class="banner"></div>
+
+    <div class="lower_half">
+        <div class="main-wrapper">
+            <div class="log-summary">
+                <h3>📘 Existing Entries</h3>
+                <div id="logList"></div>
+            </div>
+
+            <div class="content">
+                <h1>OAFP Community Database (Beta)</h1>
+
+                <button id="darkModeToggle" onclick="toggleDarkMode()" title="Toggle Dark Mode">
+                    <i id="darkModeIcon" data-lucide="moon"></i>
+                </button>
+
+
+
+                <form id="queryForm">
+
+                    <!-- Step 1 filters (Dropdown + Checklist) -->
+                    <div class="filter-row">
+                        <label>Kind:
+                            <select name="kind" id="kindSelect">
+                                <option value="">Select Kind</option>
+                                <option value="best">Highest</option>
+                                <option value="worst">Lowest</option>
+                            </select>
+                        </label>
+
+                        <label>Metric:
+                            <select name="metric" id="metricSelect">
+                                <option value="">Select Metric</option>
+                                <option value="Sell Price">Sell Price</option>
+                                <option value="Buy Price">Buy Price</option>
+                                <option value="Weight">Weight</option>
+                                <option value="Profit %">Profit %</option>
+                            </select>
+                        </label>
+
+                        <label>Reproduction Ability:
+                            <select name="repro" id="reproSelect">
+                                <option value="">Any</option>
+                                <option value="Y">Yes</option>
+                                <option value="N">No</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="filter-row">
+                        <!-- Rarity Checklist -->
+                        <label>Rarities:
+                            <div class="dropdown-checklist" id="rarityDropdown">
+                                <label style="color: #899386 ;"><input type="checkbox" value="Common"> Common</label>
+                                <label style="color: #6fd957  ;"><input type="checkbox" value="Uncommon">
+                                    Uncommon</label>
+                                <label style="color: #5ec8f2 ;"><input type="checkbox" value="Rare"> Rare</label>
+                                <label style="color: #e15ef2  ;"><input type="checkbox" value="Epic"> Epic</label>
+                                <label style="color: #ced044  ;"><input type="checkbox" value="Legendary">
+                                    Legendary</label>
+                                <label style="color: #ed7961  ;"><input type="checkbox" value="Mythical">
+                                    Mythical</label>
+                                <label style="color: #ed61bc  ;"><input type="checkbox" value="Fishy"> Fishy</label>
+                            </div>
+                        </label>
+
+                        <!-- Mutations Checklist (Fixed) -->
+                        <label>Mutations:
+                            <div class="dropdown-checklist" id="modsDropdown">
+                                <label style="color: #a89997;"><input type="checkbox" value="Petrified">
+                                    Petrified</label>
+                                <label style="color: #5fe7e7;"><input type="checkbox" value="Frozen"> Frozen</label>
+                                <label style="color: #e263af;"><input type="checkbox" value="Shiny"> Shiny</label>
+                                <label style="color: #efcb3b;"><input type="checkbox" value="Gold"> Gold</label>
+                                <label style="color: #2fff00;"><input type="checkbox" value="Neon"> Neon</label>
+                                <label style="color: #e21b1b;"><input type="checkbox" value="Rainbow"> Rainbow</label>
+                                <label style="color: #d6a761;"><input type="checkbox" value="Sandstoned">
+                                    Sandstoned</label>
+                                <label style="color: #a1807a;"><input type="checkbox" value="Eclipsed"> Eclipsed</label>
+                                <div style="border-top: 2px solid #bbb; margin: 8px 0 4px 0;"></div>
+                                <label style="font-weight: bold; display: flex; align-items: center; gap: 6px;">
+                                    Toggle Strict Search
+                                    <input type="checkbox" id="modsStrictToggle" style="margin-left: 8px;">
+                                </label>
+                            </div>
+                        </label>
+
+                        <!-- Right-side text fields -->
+                        <div class="side-inputs">
+                            <label>Fish Names:
+                                <input type="text" name="name" placeholder="e.g., B*rr*l E*e, Tuna">
+                            </label>
+                            <label>Number of Indexes:
+                                <input type="number" name="top_n" value="1" min="1" max="50">
+                            </label>
+                            <label>Logger Name(s):
+                                <input type="text" name="logger" placeholder="e.g., Sol, Aliy">
+                            </label>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+
+                    <input type="hidden" name="mods_mode" id="modsModeInput" value="contains">
+
+                </form>
+
+
+                <div class="result" id="result"></div>
+            </div>
+
+            <!-- Add this right after the content div -->
+            <div class="side-boxes">
+                <div class="side-box" id="loggerStatsBox">
+                    <h3>🔥 Data Contributors</h3>
+                    <!-- Logger stats will be populated by JavaScript -->
+                </div>
+                <div class="side-box" id="statsBox">
+                    <h3>Additional Info:</h3>
+                    <p>- Strict Search doesn't work yet, please stay tuned!</p>
+                    <!-- Add your statistics content here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        // Fetch log counts from server
+        async function loadLogCounts() {
+            const logListDiv = document.getElementById("logList");
+            const res = await fetch("/log_counts");
+            const data = await res.json();
+
+            const rarityOrder = [
+                "Common", "Uncommon", "Rare",
+                "Epic", "Legendary", "Mythical", "Fishy"
+            ];
+
+            let html = "";
+            rarityOrder.forEach(rarity => {
+                const group = data[rarity];
+                if (group) {
+                    html += `<div class="rarity-section"><span class="rarity-label rarity-${rarity.toLowerCase()}">(${rarity})</span></div>`;
+
+                    for (const name in group) {
+                        const count = group[name];
+                        html += `<div>${name}: ${count}</div>`;
+                    }
+                    html += `<br/>`;
+                }
+            });
+
+            logListDiv.innerHTML = html;
+        }
+
+        // Fetch and display logger stats
+        async function loadLoggerStats() {
+            const box = document.getElementById("loggerStatsBox");
+            if (!box) return;
+            const res = await fetch("/logger_stats");
+            const data = await res.json();
+            let html = `<ul style="padding-left:18px; margin:0;">`;
+            for (const [logger, count] of Object.entries(data)) {
+                html += `<li><strong>${logger}</strong>: ${count}</li>`;
+            }
+            html += `</ul>`;
+            box.innerHTML = `<h3>🔥 Data Contributors</h3>${html}`;
+        }
+
+        // Run on load
+        loadLogCounts();
+        loadLoggerStats();
+
+        const form = document.getElementById("queryForm");
+        const resultDiv = document.getElementById("result");
+
+        form.addEventListener("submit", async function (e) {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const getCheckedValues = (containerId) => {
+                const checkboxes = document.querySelectorAll(`#${containerId} input[type="checkbox"]:checked`);
+                return Array.from(checkboxes).map(cb => cb.value); // <-- return array, not string
+            };
+
+            const payload = {
+                kind: formData.get("kind"),
+                metric: formData.get("metric"),
+                top_n: formData.get("top_n"),
+                filters: {
+                    repro: formData.get("repro"),
+                    rarity: getCheckedValues("rarityDropdown"),
+                    name: formData.get("name"),
+                    mods: getCheckedValues("modsDropdown"),
+                    mods_mode: formData.get("mods_mode"),
+                    logger: formData.get("logger")  // Add this line
+                }
+            };
+
+
+            const response = await fetch("/query", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload)
+            });
+
+            const data = await response.json();
+            if (data.error) {
+                resultDiv.innerHTML = `<div style="color:red;"><strong>Error:</strong> ${data.error}</div>`;
+                return;
+            }
+            resultDiv.innerHTML = generateTable(data, payload.metric);
+
+            const nameFilter = formData.get("name")?.toLowerCase().trim() || "";
+            const barrelMatch = nameFilter.includes("barrel fish") || nameFilter.includes("barrel");
+            if (barrelMatch) {
+                const audio = document.getElementById("barrelAudio");
+                if (audio) {
+                    audio.currentTime = 0;
+                    audio.play().catch(e => console.warn("Audio autoplay blocked:", e));
+                }
+
+                showPopup();
+            }
+
+
+        });
+
+
+        function generateTable(data, selectedMetric) {
+            if (!data || data.length === 0) return "<p>No results found.</p>";
+
+            const allKeys = Object.keys(data[0]);
+
+            const columnOrder = [];
+
+            // Always start with Name
+            if (allKeys.includes("Name")) columnOrder.push("Name");
+
+            // Then selected Metric
+            if (selectedMetric && selectedMetric !== "Name" && allKeys.includes(selectedMetric)) {
+                columnOrder.push(selectedMetric);
+            }
+
+            // Always group Buy/Sell Price after that
+            ["Buy Price", "Sell Price"].forEach(col => {
+                if (allKeys.includes(col) && !columnOrder.includes(col)) {
+                    columnOrder.push(col);
+                }
+            });
+
+            // Add everything else that hasn't been added yet
+            allKeys.forEach(col => {
+                if (!columnOrder.includes(col)) {
+                    columnOrder.push(col);
+                }
+            });
+
+
+            const headerHTML = columnOrder.map(h => `<th>${h}</th>`).join("");
+
+            const rows = data.map((row, index) => {
+                return `<tr class="rank-${index + 1}">` +
+                    columnOrder.map(h => {
+                        let value = row[h];
+                        let cellClass = "";
+
+                        if (h === "Profit %") {
+                            if (value.includes("-")) {
+                                cellClass = "profit-negative";
+                            } else {
+                                cellClass = "profit-positive";
+                            }
+                        }
+
+                        if (h === "Reproduction") {
+                            if (value.toLowerCase().includes("y")) {
+                                cellClass = "repro-yes";
+                            } else if (value.toLowerCase().includes("n")) {
+                                cellClass = "repro-no";
+                            }
+                        }
+
+
+                        if (h === "Rarity") {
+                            const clean = value.toLowerCase().replace(/[^a-z]/g, ""); // removes extra chars
+                            const rarityColors = {
+                                "common": "rarity-common",
+                                "uncommon": "rarity-uncommon",
+                                "rare": "rarity-rare",
+                                "epic": "rarity-epic",
+                                "legendary": "rarity-legendary",
+                                "mythical": "rarity-mythical",
+                                "fishy": "rarity-fishy"
+                            };
+                            cellClass = rarityColors[clean] || "";
+                        }
+
+
+                        return `<td class="${cellClass}">${value}</td>`;
+                    }).join("") +
+                    `</tr>`;
+            }).join("");
+
+            // Calculate average of the selected metric
+            let averageRow = '';
+            try {
+                const numericValues = data.map(row => {
+                    const raw = row[selectedMetric];
+                    const num = parseFloat(raw.toString().replace(/[^0-9.-]/g, ""));
+                    return isNaN(num) ? null : num;
+                }).filter(v => v !== null);
+
+                const avg = numericValues.reduce((a, b) => a + b, 0) / numericValues.length;
+
+                averageRow = `<tr><td><strong>Average</strong></td>` +
+                    columnOrder.slice(1).map(h => {
+                        if (h === selectedMetric) {
+                            const isPercent = selectedMetric.includes("%");
+                            const formatted = isPercent ? `${avg.toFixed(2)}%` : avg.toLocaleString();
+                            return `<td><strong>${formatted}</strong></td>`;
+                        } else {
+                            return `<td>-</td>`;
+                        }
+                    }).join("") +
+                    `</tr>`;
+            } catch (e) {
+                console.error("Error calculating average:", e);
+            }
+
+
+            return `
+                <table>
+                    <thead><tr>${headerHTML}</tr></thead>
+                    <tbody>
+                        ${rows}
+                        ${averageRow}
+                    </tbody>
+                </table>
+            `;
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            lucide.createIcons(); // render initial icon
+        });
+
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+            const icon = document.getElementById("darkModeIcon");
+            icon.setAttribute(
+                "data-lucide",
+                document.body.classList.contains("dark-mode") ? "sun" : "moon"
+            );
+            lucide.createIcons(); // refreshes the icon visuals
+        }
+
+        function showPopup() {
+            const popup = document.getElementById("barrelPopup");
+            popup.style.display = "block";
+            popup.style.animation = "fadeIn 0.1s forwards";
+
+            setTimeout(() => {
+                popup.style.animation = "fadeOut 0.4s forwards";
+                setTimeout(() => {
+                    popup.style.display = "none";
+                }, 400); // fadeOut duration
+            }, 2000); // visible for 2.5s
+        }
+
+
+
+        // Strict search toggle logic
+        const modsStrictToggle = document.getElementById("modsStrictToggle");
+        const modsModeInput = document.getElementById("modsModeInput");
+        modsStrictToggle.addEventListener("change", function () {
+            modsModeInput.value = modsStrictToggle.checked ? "strict" : "contains";
+        });
+
+
+    </script>
+
+    <audio id="barrelAudio" src="{{ url_for('static', filename='boom.mp3') }}" preload="auto"></audio>
+
+
+    <footer class="site-footer">
+        <p>Built by @Monra_21 / @obakemon_8! 🐟</p>
+    </footer>
+
+</body>
+
+</html>

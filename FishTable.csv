@@ -1,0 +1,551 @@
+Name,Buy Price,Sell Price,Rarity,Reproduction,Ratio,Modifiers,Weight,Logger
+Catfish,1000,1044.0,Uncommon,Y,1.04,"[""Frozen"", ""Rainbow""]",21.61,
+Catfish,1000,4130.0,Uncommon,Y,4.13,"[""Sandstoned"", ""Shiny""]",43.47,
+Bass,400,180.0,Uncommon,Y,0.45,"[""Rainbow""]",0.9,
+Bass,400,80.0,Uncommon,Y,0.2,"[""Frozen""]",0.82,
+Pufferfish,5000,148175.0,Rare,N,29.64,"[""Sandstoned"", ""Frozen""]",24.07,
+Pufferfish,5000,28992.0,Rare,N,5.8,"[""Frozen"", ""Eclipsed""]",18.5,
+Salmon,3250,3250.0,Rare,Y,1.0,"[""Sandstoned"", ""Neon""]",2.27,
+Tuna,1000,56399.0,Rare,N,56.4,"[""Sandstoned"", ""Frozen""]",40.07,
+Tuna,1000,49126.0,Rare,N,49.13,"[""Frozen"", ""Eclipsed""]",34.94,
+Tuna,1000,57084.0,Rare,N,57.08,"[""Sandstoned"", ""Frozen""]",40.6,
+Blue Tang,12000,272000.0,Epic,N,22.67,"[""Sandstoned""]",21.61,
+Blue Tang,12000,140814.0,Epic,N,11.73,"[""Frozen"", ""Petrified""]",0.35,
+Clownfish,15000,40500.0,Epic,Y,2.7,"[""Frozen"", ""Sandstoned"", ""Rainbow""]",0.15,
+Clownfish,15000,39000.0,Epic,Y,2.6,"[""Frozen"", ""Neon"", ""Sandstoned""]",0.25,
+Goldfish,6000,17366.0,Epic,Y,2.89,"[""Sandstoned"", ""Frozen""]",2.92,
+Goldfish,6000,16827.0,Epic,Y,2.8,"[""Frozen"", ""Eclipsed""]",2.24,
+Goldfish,6000,4750.0,Epic,Y,0.79,"[""Frozen"", ""Sandstoned""]",0.95,
+Blobfish,150000,7635936.0,Mythical,N,50.91,"[""Sandstoned"", ""Frozen""]",82.22,
+Hammerhead,500000,4230183.0,Mythical,Y,8.46,"[""Frozen"", ""Eclipsed""]",34.54,
+BD Axolotl,2500000,4153807.0,Mythical,Y,1.66,"[""Sandstoned"", ""Eclipsed""]",11.36,
+Dark Jaw,650000,3861151.0,Mythical,Y,5.94,"[""Frozen"", ""Eclipsed"", ""Sandstoned""]",64.33,
+Dark Jaw,650000,1810944.0,Mythical,Y,2.79,"[""Frozen"", ""Eclipsed""]",44.5,
+BD Axolotl,2500000,1528664.0,Mythical,Y,0.61,"[""Frozen"", ""Sandstoned""]",6.29,
+Hammerhead,500000,672576.0,Mythical,Y,1.35,"[""Frozen""]",32.95,
+Lionfish,120000,181382.0,Mythical,Y,1.51,"[""Frozen"", ""Sandstoned""]",2.0,
+Manatee,850000,2498305.0,Fishy,Y,2.94,"[""Frozen"", ""Shiny""]",34.57,
+Clownfish,15000,6000.0,Epic,Y,0.4,"[""Frozen""]",0.19,
+Hammerhead,500000,416036.0,Mythical,Y,0.83,"[""Frozen""]",18.61,
+Catfish,1000,348.0,Uncommon,Y,0.35,"[""Frozen""]",22.04,
+Bass,400,380.0,Uncommon,Y,0.95,"[""Sandstoned"", ""Frozen""]",0.87,
+Salmon,3250,660.0,Rare,Y,0.2,"[""Frozen""]",0.88,
+Catfish,1000,783.0,Uncommon,Y,0.78,"[""Frozen"", ""Petrified""]",21.82,
+BD Axolotl,2500000,321824.0,Mythical,Y,0.13,"[""Frozen""]",6.38,
+Goldfish,6000,21485.0,Epic,Y,3.58,"[""Frozen"", ""Eclipsed""]",2.86,
+Clownfish,15000,6000.0,Epic,Y,0.4,"[""Frozen""]",0.18,
+Manatee,850000,978716.0,Fishy,Y,1.15,"[""Frozen""]",23.7,
+Lionfish,120000,38312.0,Mythical,Y,0.32,"[""Frozen""]",2.77,
+Barrel Eye,650000,69570.0,Mythical,Y,0.11,"[""Frozen""]",60.39,
+Goldfish,6000,6000.0,Epic,Y,1.0,"[""Frozen"", ""Eclipsed""]",0.94,
+Clownfish,15000,4500.0,Epic,Y,0.3,"[""Petrified""]",0.17,
+Hammerhead,500000,4615868.0,Mythical,Y,9.23,"[""Frozen"", ""Petrified"", ""Eclipsed""]",34.79,
+Catfish,1000,1875.0,Uncommon,Y,1.88,"[""Sandstoned""]",23.43,
+Dark Jaw,650000,319558.0,Mythical,Y,0.49,"[""Frozen""]",51.91,
+Lionfish,120000,42549.0,Mythical,Y,0.35,"[""Frozen""]",3.25,
+Catfish,1000,551.0,Uncommon,Y,0.55,"[""Petrified""]",36.7,
+Barrel Eye,650000,54184.0,Mythical,Y,0.08,"[""Frozen""]",40.75,
+Lionfish,120000,28734.0,Mythical,Y,0.24,"[""Petrified""]",2.73,
+Dark Jaw,650000,301824.0,Mythical,Y,0.46,"[""Frozen""]",42.51,
+Barrel Eye,650000,92575.0,Mythical,Y,0.14,"[""Frozen""]",80.36,
+BD Axolotl,2500000,482736.0,Mythical,Y,0.19,"[""Frozen"", ""Petrified""]",6.74,
+Dark Jaw,650000,380257.0,Mythical,Y,0.59,"[""Frozen""]",61.77,
+Hammerhead,500000,3061800.0,Mythical,Y,6.12,"[""Frozen"", ""Eclipsed""]",25.0,
+Koi,50000,14020.0,Legendary,Y,0.28,"[""Frozen""]",2.77,
+Hammerhead,500000,3346956.0,Mythical,Y,6.69,"[""Sandstoned"", ""Frozen""]",34.52,
+Salmon,3250,660.0,Rare,Y,0.2,"[""Frozen""]",0.86,
+Bass,400,1801.0,Uncommon,Y,4.5,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Shiny"", ""Eclipsed""]",1.86,
+Clownfish,15000,46319.0,Epic,Y,3.09,"[""Sandstoned""]",0.48,
+Catfish,1000,1392.0,Uncommon,Y,1.39,"[""Sandstoned""]",20.87,
+Lionfish,120000,76624.0,Mythical,Y,0.64,"[""Neon""]",2.82,
+Barrel Eye,650000,298553.0,Mythical,Y,0.46,"[""Frozen"", ""Sandstoned""]",54.56,
+Goldfish,6000,6750.0,Epic,Y,1.12,"[""Frozen"", ""Sandstoned"", ""Rainbow""]",1.0,
+Hammerhead,500000,191108.0,Mythical,Y,0.38,[],37.45,
+Dark Jaw,650000,235655.0,Mythical,Y,0.36,"[""Sandstoned"", ""Frozen""]",80.56,
+Barrel Eye,650000,296638.0,Mythical,Y,0.46,"[""Frozen"", ""Sandstoned""]",54.21,
+DS Axolotl,2500000,6098883.0,Fishy,Y,2.44,"[""Eclipsed""]",5.78,
+Blue Dolphin,0,13538185.0,Fishy,Y,0.0,"[""Frozen"", ""Eclipsed""]",54.83,
+Megalodon,1000000,11966357.0,Fishy,Y,11.97,"[""Petrified"", ""Neon"", ""Sandstoned""]",1102.89,
+Orca,4000000,372647.0,Mythical,Y,0.09,"[""Frozen""]",343.77,
+Megalodon,1000000,2252756.0,Fishy,Y,2.25,"[""Frozen""]",1297.67,
+Orca,4000000,84680.0,Mythical,Y,0.02,[],312.47,
+Blue Dolphin,0,32603648.0,Fishy,Y,0.0,"[""Frozen"", ""Eclipsed"", ""Sandstoned"", ""Rainbow"", ""Gold"", ""Shiny"", ""Neon"", ""Petrified""]",40.3,
+Orca,4000000,0.0,Mythical,Y,0.0,[],27053.7,
+Squid,1000000,92294360.0,Fishy,N,92.29,"[""Frozen"", ""Eclipsed"", ""Sandstoned"", ""Shiny""]",74.37,
+Blue Whale,4000000,960932.0,Legendary,N,0.24,"[""Frozen""]",13008.79,
+Lionfish,120000,124514.0,Mythical,Y,1.04,"[""Frozen"", ""Neon"", ""Petrified""]",2.69,
+Salmon,3250,13258.0,Rare,Y,4.08,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Shiny"", ""Eclipsed""]",1.15,
+Pufferfish,5000,152208.0,Rare,N,30.44,"[""Frozen"", ""Petrified"", ""Sandstoned""]",18.98,
+Hammerhead,500000,4055048.0,Mythical,Y,8.11,"[""Frozen"", ""Petrified"", ""Sandstoned""]",37.84,
+BD Axolotl,2500000,80456.0,Mythical,Y,0.03,[],5.46,
+Catfish,1000,205.0,Uncommon,Y,0.2,[],40.82,
+Goldfish,6000,2004.0,Epic,Y,0.33,"[""Frozen""]",1.6,
+Angler,650000,150433.0,Epic,N,0.23,[],53.15,
+Swordfish,100000,721045.0,Legendary,N,7.21,"[""Frozen""]",34.55,
+Pufferfish,5000,43948.0,Rare,N,8.79,"[""Frozen""]",33.91,
+Goldfish,6000,2893.0,Epic,Y,0.48,"[""Frozen""]",2.31,
+Koi,50000,19694.0,Legendary,Y,0.39,"[""Frozen""]",3.13,
+Goldfish,6000,2292.0,Epic,Y,0.38,"[""Frozen""]",1.83,
+Blue Tang,12000,68000.0,Epic,N,5.67,"[""Frozen""]",0.2,
+Squid,1000000,6086888.0,Fishy,N,6.09,"[""Frozen""]",51.5,
+Lionfish,120000,10998.0,Mythical,Y,0.09,[],3.36,
+Goldfish,6000,1000.0,Epic,Y,0.17,"[""Frozen""]",0.88,
+BD Axolotl,2500000,80456.0,Mythical,Y,0.03,[],6.95,
+BD Axolotl,2500000,2318640.0,Mythical,Y,0.93,"[""Frozen"", ""Neon"", ""Sandstoned""]",8.78,
+BD Axolotl,2500000,2523304.0,Mythical,Y,1.01,"[""Frozen"", ""Petrified"", ""Sandstoned""]",11.83,
+BD Axolotl,2500000,1528664.0,Mythical,Y,0.61,"[""Sandstoned"", ""Frozen""]",6.62,
+BD Axolotl,2500000,321824.0,Mythical,Y,0.13,"[""Frozen""]",6.18,
+Hammerhead,500000,2628505.0,Mythical,Y,5.26,"[""Sandstoned"", ""Frozen""]",27.11,
+Hammerhead,500000,2496216.0,Mythical,Y,4.99,"[""Frozen"", ""Eclipsed""]",19.88,
+Barrel Eye,650000,296638.0,Mythical,Y,0.46,"[""Frozen"", ""Sandstoned""]",54.21,
+Pufferfish,5000,282672.0,Rare,N,56.53,"[""Frozen"", ""Eclipsed"", ""Sandstoned""]",22.55,
+Pufferfish,5000,239184.0,Rare,N,47.84,"[""Frozen"", ""Petrified"", ""Eclipsed"", ""Neon""]",18.44,
+Pufferfish,5000,394807.0,Rare,N,78.96,"[""Frozen"", ""Eclipsed"", ""Sandstoned"", ""Neon""]",26.49,
+Pufferfish,5000,282672.0,Rare,N,56.53,"[""Frozen"", ""Eclipsed"", ""Sandstoned""]",19.22,
+Salmon,3250,22787.0,Rare,Y,7.01,"[""Frozen"", ""Eclipsed"", ""Sandstoned""]",2.23,
+Pufferfish,5000,287090.0,Rare,N,57.42,"[""Frozen"", ""Eclipsed"", ""Petrified""]",34.08,
+Lionfish,120000,439892.0,Mythical,Y,3.67,"[""Frozen"", ""Eclipsed"", ""Sandstoned"", ""Shiny""]",3.2,
+Blue Tang,12000,663000.0,Epic,N,55.25,"[""Frozen"", ""Eclipsed"", ""Sandstoned""]",0.2,
+Angler,650000,7822516.0,Epic,N,12.03,"[""Frozen"", ""Rainbow"", ""Sandstoned"", ""Shiny"", ""Petrified"", ""Eclipsed""]",55.03,
+Blue Tang,12000,357000.0,Epic,N,29.75,"[""Frozen"", ""Petrified"", ""Sandstoned""]",0.24,
+Blue Tang,12000,323000.0,Epic,N,26.92,"[""Frozen"", ""Sandstoned""]",0.17,
+Blue Tang,12000,357000.0,Epic,N,29.75,"[""Frozen"", ""Petrified"", ""Sandstoned""]",0.16,
+Blobfish,150000,1597203.0,Mythical,N,10.65,"[""Frozen"", ""Petrified""]",54.46,
+Angler,650000,1353897.0,Epic,N,2.08,"[""Frozen"", ""Petrified"", ""Shiny""]",52.39,
+Angler,650000,5888802.0,Epic,N,9.06,"[""Frozen"", ""Neon"", ""Sandstoned""]",85.34,
+Angler,650000,601732.0,Epic,N,0.93,"[""Frozen""]",53.48,
+Angler,650000,902598.0,Epic,N,1.39,"[""Frozen"", ""Petrified""]",52.03,
+Angler,650000,1195415.0,Epic,N,1.84,"[""Frozen"", ""Petrified""]",75.07,
+Barrel Eye,650000,13546.0,Mythical,Y,0.02,[],42.8,
+Blobfish,150000,5880000.0,Mythical,N,39.2,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Neon""]",37.19,
+Cosmic Narwhal,4000000,428500.0,Fishy,Y,0.11,[],300.26,
+Orca,4000000,1979040.0,Mythical,Y,0.49,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Shiny""]",300.75,
+Angler,650000,12316259.0,Epic,N,18.95,"[""Frozen"", ""Neon"", ""Sandstoned"", ""Eclipsed"", ""Petrified""]",95.69,
+Cosmic Narwhal,4000000,428500.0,Fishy,Y,0.11,[],301.27,
+Cosmic Narwhal,4000000,428500.0,Fishy,Y,0.11,[],301.67,
+Cosmic Narwhal,4000000,428500.0,Fishy,Y,0.11,[],301.87,
+Cosmic Narwhal,4000000,428500.0,Fishy,Y,0.11,[],300.97,
+Cosmic Narwhal,4000000,938476.0,Fishy,Y,0.23,[],631.12,
+Cosmic Narwhal,4000000,902030.0,Fishy,Y,0.23,[],606.61,
+Cosmic Narwhal,4000000,636897.0,Fishy,Y,0.16,[],428.31,
+Cosmic Narwhal,4000000,512659.0,Fishy,Y,0.13,[],344.76,
+Cosmic Narwhal,4000000,1714000.0,Fishy,Y,0.43,"[""Frozen""]",301.57,
+Ghost Shark,650000,595082.0,Fishy,Y,0.92,[],333.94,
+Pufferfish,5000,328284.0,Rare,N,65.66,"[""Frozen"", ""Neon"", ""Sandstoned""]",38.97,
+DS Axolotl,2500000,327463.0,Fishy,Y,0.13,[],9.02,
+Clownfish,15000,1500.0,Epic,Y,0.1,[],0.16,
+Megalodon,1000000,3329041.0,Fishy,Y,3.33,"[""Frozen"", ""Shiny""]",1095.8,
+Blue Dolphin,0,4583304.0,Fishy,Y,0.0,"[""Frozen"", ""Petrified""]",74.25,
+Megalodon,1000000,1391448.0,Fishy,Y,1.39,"[""Petrified""]",1068.7,
+Megalodon,1000000,428500.0,Fishy,Y,0.43,[],1048.0,
+Megalodon,1000000,1895747.0,Fishy,Y,1.9,"[""Frozen""]",1092.02,
+Megalodon,1000000,1714000.0,Fishy,Y,1.71,"[""Frozen""]",1024.29,
+Megalodon,1000000,1714000.0,Fishy,Y,1.71,"[""Frozen""]",1051.93,
+Ghost Shark,650000,584786.0,Fishy,Y,0.9,[],300.93,
+DS Axolotl,2500000,3910667.0,Fishy,Y,1.56,"[""Frozen""]",26.93,
+DS Axolotl,2500000,1742538.0,Fishy,Y,0.7,"[""Frozen"", ""Petrified""]",7.01,
+DS Axolotl,2500000,290423.0,Fishy,Y,0.12,[],5.52,
+DS Axolotl,2500000,332545.0,Fishy,Y,0.13,[],9.16,
+DS Axolotl,2500000,1161692.0,Fishy,Y,0.46,"[""Frozen""]",7.06,
+Clownfish,15000,31500.0,Epic,Y,2.1,"[""Frozen"", ""Petrified"", ""Sandstoned""]",0.2,
+Blue Tang,12000,243407.0,Epic,N,20.28,"[""Frozen"", ""Neon""]",0.33,
+Dark Jaw,650000,2037312.0,Mythical,Y,3.13,"[""Frozen"", ""Eclipsed"", ""Shiny""]",44.18,
+Goldfish,6000,16593.0,Epic,Y,2.77,"[""Frozen"", ""Sandstoned""]",2.79,
+Pufferfish,5000,43488.0,Rare,N,8.7,"[""Frozen"", ""Petrified""]",22.6,
+Cosmic Narwhal,4000000,469610.0,Fishy,Y,0.12,[],315.81,Aliy
+Cosmic Narwhal,4000000,3856500.0,Fishy,Y,0.96,"[""Rainbow""]",301.04,Aliy
+Cosmic Narwhal,4000000,428500.0,Fishy,Y,0.11,[],301.17,Aliy
+Cosmic Narwhal,4000000,428500.0,Fishy,Y,0.11,[],300.59,Aliy
+Dark Jaw,650000,609383.0,Mythical,Y,0.94,[],395.96,Aliy
+Cosmic Narwhal,4000000,428500.0,Fishy,Y,0.11,[],301.27,Aliy
+Dark Jaw,650000,312848.0,Mythical,Y,0.48,"[""Shiny""]",50.82,Aliy
+Dark Jaw,650000,179771.0,Mythical,Y,0.28,[],116.81,Aliy
+Dark Jaw,650000,335687.0,Mythical,Y,0.52,"[""Frozen""]",54.53,Aliy
+Dark Jaw,650000,1281357.0,Mythical,Y,1.97,"[""Gold"", ""Frozen""]",92.51,Aliy
+Cosmic Narwhal,4000000,509253.0,Fishy,Y,0.13,[],342.47,Aliy
+Cosmic Narwhal,4000000,428500.0,Fishy,Y,0.11,[],300.82,Aliy
+Cosmic Narwhal,4000000,503841.0,Fishy,Y,0.13,[],338.83,Aliy
+Cosmic Narwhal,4000000,959740.0,Fishy,Y,0.24,[],645.42,Aliy
+Dark Jaw,650000,335072.0,Mythical,Y,0.52,"[""Frozen""]",54.43,Aliy
+Cosmic Narwhal,4000000,807099.0,Fishy,Y,0.2,[],542.77,Aliy
+Cosmic Narwhal,4000000,309709.0,Fishy,Y,0.08,"[""Frozen""]",50.31,Aliy
+Dark Jaw,650000,1433664.0,Mythical,Y,2.21,"[""Frozen"", ""Sandstoned""]",44.8,Aliy
+Cosmic Narwhal,4000000,428500.0,Fishy,Y,0.11,[],301.01,Aliy
+Squid,1000000,46323582.0,Fishy,N,46.32,"[""Frozen"", ""Neon"", ""Sandstoned"", ""Shiny""]",54.06,Sol
+Blue Dolphin,0,857814,Fishy,Y,0.00,[],83.38,Vinnie
+Blue Dolphin,0,204427704,Fishy,Y,0.00,"[""Frozen"", ""Eclipsed"", ""Sandstoned""]",509.50,Vinnie
+Ghost Shark,650000,12280506,Fishy,Y,18.89,"[""Frozen"", ""Petrified"", ""Sandstoned""]",304.37,Bradnom
+Ghost Shark,650000,2986062,Fishy,Y,4.59,"[""Shiny""]",418.92,Bradnom
+Orca,4000000,89065,Mythical,Y,0.02,[],328.65,Sol
+Orca,4000000,117753,Mythical,Y,0.03,[],434.51,Sol
+Orca,4000000,91327,Mythical,Y,0.02,[],337.00,Sol
+Orca,4000000,82460,Mythical,Y,0.02,[],301.25,Sol
+Orca,4000000,82460,Mythical,Y,0.02,[],301.09,Sol
+Orca,4000000,85352,Mythical,Y,0.02,[],314.95,Sol
+Orca,4000000,94300,Mythical,Y,0.02,[],347.97,Sol
+Orca,4000000,119604,Mythical,Y,0.03,[],441.34,Sol
+Orca,4000000,190248,Mythical,Y,0.05,[],702.02,Sol
+Orca,4000000,94666,Mythical,Y,0.02,[],349.32,Sol
+Orca,4000000,89764,Mythical,Y,0.02,[],331.23,Sol
+Orca,4000000,91723,Mythical,Y,0.02,[],338.46,Sol
+Orca,4000000,88902,Mythical,Y,0.02,[],328.05,Sol
+Orca,4000000,90851,Mythical,Y,0.02,[],335.24,Sol
+Orca,4000000,86842,Mythical,Y,0.02,[],320.45,Sol
+Orca,4000000,90775,Mythical,Y,0.02,[],334.96,Sol
+Orca,4000000,120460,Mythical,Y,0.03,[],444.50,Sol
+Orca,4000000,136999,Mythical,Y,0.03,[],505.53,Sol
+Orca,4000000,787093,Mythical,Y,0.20,"[""Frozen""]",726.10,Sol
+Orca,4000000,2349896,Mythical,Y,0.59,"[""Sandstoned""]",541.95,Sol
+Orca,4000000,1566740,Mythical,Y,0.39,"[""Frozen"", ""Sandstoned""]",300.87,Sol
+Orca,4000000,3065997,Mythical,Y,0.77,"[""Frozen"", ""Neon"", ""Sandstoned""]",435.14,Sol
+Orca,4000000,2836533,Mythical,Y,0.71,"[""Sandstoned"", ""Frozen""]",550.89,Sol
+Megalodon,1000000,13815926,Fishy,Y,13.82,"[""Frozen"", ""Sandstoned""]",1675.47,Sol
+Megalodon,1000000,7488757,Fishy,Y,7.49,"[""Sandstoned""]",1078.45,Sol
+Megalodon,1000000,13894593,Fishy,Y,13.89,"[""Frozen"", ""Sandstoned""]",1685.01,Sol
+Megalodon,1000000,428500,Fishy,Y,0.43,[],1028.70,Sol
+Cosmic Narwhal,4000000,772408,Fishy,Y,0.19,[],519.44,Sol
+Cosmic Narwhal,4000000,1714000,Fishy,Y,0.43,"[""Frozen""]",301.76,Sol
+Cosmic Narwhal,4000000,1714000,Fishy,Y,0.43,"[""Frozen""]",301.26,Sol
+DS Axolotl,2500000,425846,Fishy,Y,0.17,[],11.73,Sol
+Megalodon,1000000,7354113,Fishy,Y,7.35,"[""Sandstoned""]",1059.06,Sol
+Megalodon,1000000,1854292,Fishy,Y,1.85,"[""Frozen""]",1068.14,Sol
+Megalodon,1000000,2222497,Fishy,Y,2.22,"[""Frozen""]",1280.24,Sol
+Megalodon,1000000,3194779,Fishy,Y,3.19,"[""Frozen""]",1840.31,Sol
+Megalodon,1000000,6856000,Fishy,Y,6.86,"[""Sandstoned""]",1027.29,Sol
+Megalodon,1000000,1714000,Fishy,Y,1.71,"[""Frozen""]",1022.22,Sol
+Megalodon,1000000,1844934,Fishy,Y,1.84,"[""Frozen""]",1062.75,Sol
+Megalodon,1000000,5216229,Fishy,Y,5.22,"[""Neon""]",1502.37,Sol
+Megalodon,1000000,428500,Fishy,Y,0.43,[],1032.36,Sol
+Megalodon,1000000,502442,Fishy,Y,0.50,[],1157.70,Sol
+Megalodon,1000000,633623,Fishy,Y,0.63,[],1459.96,Sol
+Megalodon,1000000,594377,Fishy,Y,0.59,[],1369.53,Sol
+Megalodon,1000000,8141500,Fishy,Y,8.14,"[""Frozen"", ""Sandstoned""]",1028.91,Sol
+DS Axolotl,2500000,6098883,Fishy,Y,2.44,"[""Eclipsed""]",7.13,Sol
+DS Axolotl,2500000,309674,Fishy,Y,0.12,[],8.53,Sol
+DS Axolotl,2500000,1161692,Fishy,Y,0.46,"[""Frozen""]",5.40,Sol
+DS Axolotl,2500000,290423,Fishy,Y,0.12,[],6.05,Sol
+DS Axolotl,2500000,405879,Fishy,Y,0.16,[],11.18,Sol
+DS Axolotl,2500000,2022859,Fishy,Y,0.81,"[""Frozen""]",13.93,Sol
+DS Axolotl,2500000,1161692,Fishy,Y,0.46,"[""Frozen""]",6.96,Sol
+DS Axolotl,2500000,6430165,Fishy,Y,2.57,"[""Sandstoned""]",11.07,Sol
+DS Axolotl,2500000,510435,Fishy,Y,0.20,[],14.06,Sol
+DS Axolotl,2500000,6235576,Fishy,Y,2.49,"[""Frozen"", ""Sandstoned""]",9.04,Sol
+DS Axolotl,2500000,5146456,Fishy,Y,2.06,"[""Sandstoned""]",8.86,Sol
+DS Axolotl,2500000,404427,Fishy,Y,0.16,[],11.14,Sol
+DS Axolotl,2500000,6046795,Fishy,Y,2.42,"[""Neon""]",20.82,Sol
+DS Axolotl,2500000,1161692,Fishy,Y,0.46,"[""Frozen""]",6.08,Sol
+DS Axolotl,2500000,406968,Fishy,Y,0.16,[],11.21,Sol
+DS Axolotl,2500000,302776,Fishy,Y,0.12,[],8.34,Sol
+DS Axolotl,2500000,7853282,Fishy,Y,3.14,"[""Sandstoned""]",13.52,Sol
+DS Axolotl,2500000,16903143,Fishy,Y,6.76,"[""Sandstoned""]",29.10,Sol
+DS Axolotl,2500000,8010115,Fishy,Y,3.20,"[""Sandstoned""]",13.79,Sol
+Manatee,850000,225000,Fishy,Y,0.26,[],22.94,Sol
+Manatee,850000,8930157,Fishy,Y,10.51,"[""Eclipsed""]",41.19,Sol
+Manatee,850000,358656,Fishy,Y,0.42,[],34.74,Sol
+Manatee,850000,369290,Fishy,Y,0.43,[],35.77,Sol
+Manatee,850000,339041,Fishy,Y,0.40,[],32.84,Sol
+Manatee,850000,374555,Fishy,Y,0.44,[],36.28,Sol
+Manatee,850000,241685,Fishy,Y,0.28,[],23.41,Sol
+Manatee,850000,5434554,Fishy,Y,6.39,"[""Sandstoned""]",32.90,Sol
+Blue Whale,4000000,240233,Legendary,N,0.06,[],13007.09,Sol
+Blue Whale,4000000,240233,Legendary,N,0.06,[],13008.00,Sol
+Blue Whale,4000000,247361,Legendary,N,0.06,[],13018.98,Sol
+Blue Whale,4000000,3843728,Legendary,N,0.96,"[""Sandstoned""]",13006.82,Sol
+Blue Whale,4000000,240233,Legendary,N,0.06,[],13005.54,Sol
+Blue Whale,4000000,260863,Legendary,N,0.07,[],13729.62,Sol
+Blue Whale,4000000,258266,Legendary,N,0.06,[],13592.92,Sol
+Blue Whale,4000000,2642563,Legendary,N,0.66,"[""Neon""]",13007.29,Sol
+Blue Whale,4000000,3959524,Legendary,N,0.99,"[""Sandstoned""]",13024.75,Sol
+Blue Whale,4000000,240233,Legendary,N,0.06,[],13004.69,Sol
+Blue Whale,4000000,247324,Legendary,N,0.06,[],13017.03,Sol
+Blue Whale,4000000,257431,Legendary,N,0.06,[],13568.95,Sol
+Blue Whale,4000000,260924,Legendary,N,0.07,[],13732.83,Sol
+Blue Whale,4000000,247379,Legendary,N,0.06,[],13019.90,Sol
+Blue Dolphin,0,509432,Fishy,Y,0.00,[],41.14,Sol
+Blue Dolphin,0,2037728,Fishy,Y,0.00,"[""Frozen""]",41.96,Sol
+Blue Dolphin,0,10129360,Fishy,Y,0.00,"[""Frozen"", ""Sandstoned""]",51.82,Sol
+Blue Dolphin,0,552260,Fishy,Y,0.00,[],53.68,Sol
+Blue Dolphin,0,872011,Fishy,Y,0.00,[],84.76,Sol
+Blue Whale,4000000,5440210,Legendary,N,1.36,"[""Eclipsed""]",13634.61,Sol
+Barrel Eye,650000,13546,Mythical,Y,0.02,[],44.23,Sol
+Barrel Eye,650000,15806,Mythical,Y,0.02,[],54.88,Sol
+Barrel Eye,650000,107931,Mythical,Y,0.17,"[""Frozen""]",93.69,Sol
+Barrel Eye,650000,20279,Mythical,Y,0.03,[],70.41,Sol
+Barrel Eye,650000,21560,Mythical,Y,0.03,[],74.86,Sol
+Barrel Eye,650000,325262,Mythical,Y,0.50,"[""Eclipsed""]",53.78,Sol
+Barrel Eye,650000,31378,Mythical,Y,0.05,[],108.95,Sol
+Barrel Eye,650000,216736,Mythical,Y,0.33,"[""Sandstoned""]",42.20,Sol
+Barrel Eye,650000,15671,Mythical,Y,0.02,[],54.41,Sol
+Barrel Eye,650000,17577,Mythical,Y,0.03,[],61.03,Sol
+Barrel Eye,650000,20883,Mythical,Y,0.03,[],72.51,Sol
+Barrel Eye,650000,26606,Mythical,Y,0.04,[],92.38,Sol
+Barrel Eye,650000,15584,Mythical,Y,0.02,[],54.11,Sol
+Barrel Eye,650000,15417,Mythical,Y,0.02,[],53.53,Sol
+Barrel Eye,650000,14850,Mythical,Y,0.02,[],51.56,Sol
+Barrel Eye,650000,552304,Mythical,Y,0.85,"[""Sandstoned"", ""Eclipsed""]",53.27,Sol
+Barrel Eye,650000,21448,Mythical,Y,0.03,[],74.47,Sol
+Barrel Eye,650000,243119,Mythical,Y,0.37,"[""Sandstoned""]",52.76,Sol
+Barrel Eye,650000,54184,Mythical,Y,0.08,"[""Frozen""]",43.95,Sol
+Barrel Eye,650000,14490,Mythical,Y,0.02,[],50.31,Sol
+Barrel Eye,650000,13546,Mythical,Y,0.02,[],43.54,Sol
+Barrel Eye,650000,13546,Mythical,Y,0.02,[],40.84,Sol
+Barrel Eye,650000,216736,Mythical,Y,0.33,"[""Sandstoned""]",43.52,Sol
+Barrel Eye,650000,216736,Mythical,Y,0.33,"[""Sandstoned""]",42.90,Sol
+Barrel Eye,650000,15336,Mythical,Y,0.02,[],53.25,Sol
+Barrel Eye,650000,21537,Mythical,Y,0.03,[],74.78,Sol
+Barrel Eye,650000,62808,Mythical,Y,0.10,"[""Frozen""]",54.52,Sol
+Barrel Eye,650000,380068,Mythical,Y,0.58,"[""Sandstoned""]",82.48,Sol
+Barrel Eye,650000,21183,Mythical,Y,0.03,[],73.55,Sol
+BD Axolotl,2500000,1426856,Mythical,Y,0.57,"[""Sandstoned""]",8.78,Sol
+BD Axolotl,2500000,80456,Mythical,Y,0.03,[],6.35,Sol
+BD Axolotl,2500000,224876,Mythical,Y,0.09,[],22.14,Sol
+BD Axolotl,2500000,80456,Mythical,Y,0.03,[],5.85,Sol
+BD Axolotl,2500000,365652,Mythical,Y,0.15,"[""Frozen""]",9.00,Sol
+BD Axolotl,2500000,2245916,Mythical,Y,0.90,"[""Sandstoned""]",13.82,Sol
+BD Axolotl,2500000,92937,Mythical,Y,0.04,[],9.15,Sol
+BD Axolotl,2500000,80456,Mythical,Y,0.03,[],6.70,Sol
+BD Axolotl,2500000,80456,Mythical,Y,0.03,[],7.16,Sol
+BD Axolotl,2500000,113251,Mythical,Y,0.05,[],11.15,Sol
+BD Axolotl,2500000,80456,Mythical,Y,0.03,[],6.04,Sol
+BD Axolotl,2500000,80456,Mythical,Y,0.03,[],6.91,Sol
+BD Axolotl,2500000,80456,Mythical,Y,0.03,[],7.02,Sol
+BD Axolotl,2500000,643648,Mythical,Y,0.26,"[""Neon""]",6.47,Sol
+BD Axolotl,2500000,142503,Mythical,Y,0.06,[],14.03,Sol
+BD Axolotl,2500000,110915,Mythical,Y,0.04,[],10.92,Sol
+BD Axolotl,2500000,80456,Mythical,Y,0.03,[],6.75,Sol
+BD Axolotl,2500000,1287296,Mythical,Y,0.51,"[""Sandstoned""]",6.35,Sol
+BD Axolotl,2500000,91921,Mythical,Y,0.04,[],9.05,Sol
+BD Axolotl,2500000,90499,Mythical,Y,0.04,[],8.91,Sol
+BD Axolotl,2500000,117212,Mythical,Y,0.05,[],11.54,Sol
+BD Axolotl,2500000,116197,Mythical,Y,0.05,[],11.44,Sol
+BD Axolotl,2500000,1885140,Mythical,Y,0.75,"[""Sandstoned""]",11.60,Sol
+Swordfish,100000,600000,Legendary,N,6.00,"[""Frozen""]",18.86,Sol
+Swordfish,100000,135809,Legendary,N,1.36,[],26.03,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],22.58,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],19.10,Sol
+Swordfish,100000,858576,Legendary,N,8.59,"[""Frozen""]",41.14,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],20.87,Sol
+Swordfish,100000,497532,Legendary,N,4.98,"[""Frozen""]",23.84,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],19.20,Sol
+Swordfish,100000,3265362,Legendary,N,32.65,"[""Frozen"", ""Sandstoned""]",32.94,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],19.46,Sol
+Swordfish,100000,175931,Legendary,N,1.76,[],33.72,Sol
+Swordfish,100000,600000,Legendary,N,6.00,"[""Frozen""]",18.02,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],22.40,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],18.48,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],19.52,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],21.45,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],21.05,Sol
+Swordfish,100000,2850000,Legendary,N,28.50,"[""Frozen"", ""Sandstoned""]",18.79,Sol
+Swordfish,100000,2850000,Legendary,N,28.50,"[""Frozen"", ""Sandstoned""]",22.50,Sol
+Swordfish,100000,2996040,Legendary,N,29.96,"[""Sandstoned""]",35.89,Sol
+Swordfish,100000,150000,Legendary,N,1.50,[],19.46,Sol
+Pink Axolotl,2500000,107669,Legendary,N,0.04,[],8.51,Sol
+Pink Axolotl,2500000,116525,Legendary,N,0.05,[],9.21,Sol
+Pink Axolotl,2500000,1606768,Legendary,N,0.64,"[""Sandstoned""]",6.51,Sol
+Pink Axolotl,2500000,2602264,Legendary,N,1.04,"[""Frozen"", ""Eclipsed""]",8.57,Sol
+Pink Axolotl,2500000,107796,Legendary,N,0.04,[],8.52,Sol
+Pink Axolotl,2500000,178520,Legendary,N,0.07,[],14.11,Sol
+Pink Axolotl,2500000,1874521,Legendary,N,0.75,"[""Sandstoned""]",9.26,Sol
+Pink Axolotl,2500000,1698405,Legendary,N,0.68,"[""Sandstoned""]",8.39,Sol
+Pink Axolotl,2500000,2049624,Legendary,N,0.82,"[""Frozen""]",40.50,Sol
+Pink Axolotl,2500000,113236,Legendary,N,0.05,[],8.95,Sol
+Pink Axolotl,2500000,100423,Legendary,N,0.04,[],6.30,Sol
+Pink Axolotl,2500000,100423,Legendary,N,0.04,[],6.91,Sol
+Pink Axolotl,2500000,145245,Legendary,N,0.06,[],11.48,Sol
+Pink Axolotl,2500000,1606768,Legendary,N,0.64,"[""Sandstoned""]",5.79,Sol
+Pink Axolotl,2500000,100423,Legendary,N,0.04,[],6.05,Sol
+Pink Axolotl,2500000,401692,Legendary,N,0.16,"[""Frozen""]",6.10,Sol
+Pink Axolotl,2500000,100423,Legendary,N,0.04,[],7.02,Sol
+Pink Axolotl,2500000,1908037,Legendary,N,0.76,"[""Sandstoned"", ""Frozen""]",7.18,Sol
+Pink Axolotl,2500000,7266297,Legendary,N,2.91,"[""Frozen"", ""Eclipsed""]",23.93,Sol
+Pink Axolotl,2500000,2600999,Legendary,N,1.04,"[""Sandstoned"", ""Frozen""]",10.82,Sol
+Koi,50000,18452,Legendary,Y,0.37,[],11.73,Sol
+Koi,50000,3505,Legendary,Y,0.07,[],2.84,Sol
+Koi,50000,3505,Legendary,Y,0.07,[],2.74,Sol
+Koi,50000,3505,Legendary,Y,0.07,[],2.88,Sol
+Koi,50000,3505,Legendary,Y,0.07,[],2.81,Sol
+Koi,50000,126180,Legendary,Y,2.52,"[""Sandstoned"", ""Eclipsed""]",2.75,Sol
+Koi,50000,14020,Legendary,Y,0.28,"[""Frozen""]",2.19,Sol
+Koi,50000,3505,Legendary,Y,0.07,[],2.39,Sol
+Koi,50000,56080,Legendary,Y,1.12,"[""Sandstoned""]",2.51,Sol
+Koi,50000,10515,Legendary,Y,0.21,"[""Petrified""]",2.64,Sol
+Koi,50000,6292,Legendary,Y,0.13,[],4.00,Sol
+Koi,50000,5097,Legendary,Y,0.10,[],3.24,Sol
+Koi,50000,3505,Legendary,Y,0.07,[],2.39,Sol
+Koi,50000,5286,Legendary,Y,0.11,[],3.36,Sol
+Koi,50000,80286,Legendary,Y,1.61,"[""Sandstoned""]",3.19,Sol
+Koi,50000,3505,Legendary,Y,0.07,[],2.43,Sol
+Ghost Shark,650000,2835519,Fishy,Y,4.36,"[""Frozen""]",397.80,Orcalover
+Orca,4000000,494760,Mythical,Y,0.12,"[""Frozen"", ""Petrified""]",300.26,Bradnom
+Dark Jaw,650000,1132828,Mythical,Y,1.74,"[""Neon""]",92.01,Bradnom
+Orca,4000000,2283067,Mythical,Y,0.57,"[""Frozen"", ""Sandstoned""]",443.40,Bradnom
+Dark Jaw,650000,1433664,Mythical,Y,2.21,"[""Frozen"", ""Sandstoned""]",43.07,Bradnom
+Ghost Shark,650000,10053617,Fishy,Y,15.47,"[""Sandstoned""]",352.61,Bradnom
+Ghost Shark,650000,615699,Fishy,Y,0.95,[],345.51,Bradnom
+Hammerhead,500000,2936879,Mythical,Y,5.87,"[""Sandstoned""]",35.97,Bradnom
+Orca,4000000,1728520,Mythical,Y,0.43,"[""Sandstoned"", ""Frozen""]",335.70,Bradnom
+Sardine,10,18,Common,N,1.80,[],0.24,Monra
+Sardine,10,18,Common,N,1.80,[],0.25,Monra
+Sardine,10,437,Common,N,43.70,"[""Sandstoned""]",0.39,Monra
+Sardine,10,325,Common,N,32.50,"[""Sandstoned""]",0.29,Monra
+Sardine,10,205,Common,N,20.50,"[""Frozen""]",0.73,Monra
+Barrel Eye,650000,765124,Mythical,Y,1.18,"[""Frozen"", ""Neon"", ""Sandstoned""]",102.18,Monra
+Barrel Eye,650000,94822,Mythical,Y,0.15,"[""Frozen"", ""Shiny""]",40.32,Monra
+Barrel Eye,650000,316855,Mythical,Y,0.49,"[""Frozen"", ""Petrified"", ""Sandstoned""]",52.39,Monra
+Barrel Eye,650000,617297,Mythical,Y,0.95,"[""Frozen"", ""Sandstoned""]",112.81,Monra
+Barrel Eye,650000,13546,Mythical,Y,0.02,[],41.76,Monra
+Angler,650000,1053031,Epic,N,1.62,"[""Frozen"", ""Shiny""]",51.19,Monra
+Angler,650000,601732,Epic,N,0.93,"[""Frozen""]",50.64,Monra
+Angler,650000,1044403,Epic,N,1.61,"[""Frozen""]",98.38,Monra
+Angler,650000,2106062,Epic,N,3.24,"[""Frozen"", ""Neon"", ""Shiny""]",53.41,Monra
+Angler,650000,2579874,Epic,N,3.97,"[""Frozen"", ""Neon""]",88.37,Monra
+Angler,650000,601732,Epic,N,0.93,"[""Frozen""]",55.09,Monra
+Angler,650000,1056823,Epic,N,1.63,"[""Frozen""]",99.55,Monra
+Angler,650000,773482,Epic,N,1.19,"[""Frozen""]",72.86,Monra
+Angler,650000,922425,Epic,N,1.42,"[""Frozen""]",86.89,Monra
+Angler,650000,4970359,Epic,N,7.65,"[""Frozen"", ""Shiny""]",267.54,Monra
+Hammerhead,500000,4559633,Mythical,Y,9.12,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Shiny""]",37.23,Monra
+Ghost Shark,650000,44659914,Fishy,Y,68.71,"[""Frozen"", ""Petrified"", ""Rainbow"", ""Neon"", ""Eclipsed"", ""Sandstoned""]",447.53,R3nsui
+Squid,1000000,269179917,Fishy,N,269.18,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Neon"", ""Eclipsed""]",189.79,R3nsui
+Hammerhead,500000,416036,Mythical,Y,0.83,"[""Frozen""]",20.43,Monra
+Hammerhead,500000,416036,Mythical,Y,0.83,"[""Frozen""]",18.95,Monra
+Hammerhead,500000,2496216,Mythical,Y,4.99,"[""Frozen"", ""Eclipsed""]",22.28,Monra
+Hammerhead,500000,312027,Mythical,Y,0.62,"[""Petrified""]",22.55,Monra
+Hammerhead,500000,479887,Mythical,Y,0.96,"[""Frozen""]",23.51,Monra
+Hammerhead,500000,4825499,Mythical,Y,9.65,"[""Frozen"", ""Neon"", ""Sandstoned""]",36.37,Monra
+Manatee,850000,6029216,Fishy,Y,7.09,"[""Frozen"", ""Petrified"", ""Neon"", ""Shiny""]",36.50,Monra
+Manatee,850000,4950000,Fishy,Y,5.82,"[""Frozen"", ""Sandstoned"", ""Shiny""]",20.40,Monra
+Megalodon,1000000,1714000,Fishy,Y,1.71,"[""Frozen""]",1003.81,Monra
+Ghost Shark,650000,584786,Fishy,Y,0.90,[],300.96,HELREQUIEM
+Ghost Shark,650000,801348,Fishy,Y,1.23,[],449.69,HELREQUIEM
+Ghost Shark,650000,16958794,Fishy,Y,26.09,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Rainbow""]",302.22,HELREQUIEM
+Ghost Shark,650000,13130596,Fishy,Y,20.20,"[""Frozen"", ""Sandstoned"", ""Shiny""]",334.93,HELREQUIEM
+Ghost Shark,650000,2339144,Fishy,Y,3.60,"[""Frozen""]",303.46,HELREQUIEM
+Ghost Shark,650000,12280506,Fishy,Y,18.89,"[""Frozen"", ""Petrified"", ""Sandstoned""]",302.86,HELREQUIEM
+Squid,1000000,269179917,Fishy,N,269.18,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Neon"", ""Eclipsed""]",189.79,HELREQUIEM
+Beluga,4000000,5198365,Mythical,N,1.30,"[""Frozen""]",30223.05,Monra
+Squid,1000000,6001824,Fishy,N,6.00,"[""Frozen""]",43.86,Monra
+Angler,650000,2181907,Epic,N,3.36,"[""Frozen"", ""Neon"", ""Petrified""]",63.24,Monra
+Angler,650000,601732,Epic,N,0.93,"[""Frozen""]",54.67,Monra
+Blobfish,150000,2052569,Mythical,N,13.68,"[""Frozen""]",104.98,Monra
+Blobfish,150000,11010905,Mythical,N,73.41,"[""Frozen"", ""Eclipsed"", ""Sandstoned""]",57.76,Monra
+Blobfish,150000,12264970,Mythical,N,81.77,"[""Frozen"", ""Eclipsed""]",104.55,Monra
+Blobfish,150000,5880000,Mythical,N,39.20,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Neon""]",37.19,Monra
+Blobfish,150000,3990000,Mythical,N,26.60,"[""Frozen"", ""Sandstoned""]",30.66,Monra
+Blobfish,150000,1858418,Mythical,N,12.39,"[""Frozen""]",95.05,Monra
+Goldfish,6000,2000,Epic,Y,0.33,"[""Neon""]",1.00,Monra
+Goldfish,6000,3005,Epic,Y,0.50,"[""Frozen""]",2.40,Monra
+Goldfish,6000,13071,Epic,Y,2.18,"[""Frozen"", ""Eclipsed""]",1.74,Monra
+Goldfish,6000,4750,Epic,Y,0.79,"[""Frozen"", ""Sandstoned""]",0.87,Monra
+Goldfish,6000,2250,Epic,Y,0.38,"[""Gold"", ""Frozen""]",0.97,Monra
+Orca,4000000,329840,Mythical,Y,0.08,"[""Frozen""]",301.15,Monra
+Orca,4000000,785304,Mythical,Y,0.20,"[""Frozen""]",724.45,Monra
+Hammerhead,500000,4992432,Mythical,Y,9.98,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Eclipsed"", ""Neon""]",22.10,Monra
+Hammerhead,500000,4454001,Mythical,Y,8.91,"[""Frozen"", ""Neon"", ""Sandstoned""]",33.57,Monra
+Hammerhead,500000,4354492,Mythical,Y,8.71,"[""Frozen"", ""Neon"", ""Sandstoned""]",32.82,Monra
+Pufferfish,5000,253997,Rare,N,50.80,"[""Frozen"", ""Sandstoned""]",41.26,Monra
+Pufferfish,5000,163569,Rare,N,32.71,"[""Frozen"", ""Petrified"", ""Sandstoned""]",24.04,Monra
+Pufferfish,5000,173952,Rare,N,34.79,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Shiny""]",19.95,Monra
+Pufferfish,5000,106143,Rare,N,21.23,"[""Frozen"", ""Petrified"", ""Neon""]",25.20,Monra
+Pufferfish,5000,203518,Rare,N,40.70,"[""Sandstoned"", ""Frozen""]",33.06,Monra
+Pufferfish,5000,42820,Rare,N,8.56,"[""Frozen""]",33.04,Monra
+Pufferfish,5000,231281,Rare,N,46.26,"[""Frozen"", ""Sandstoned""]",37.57,Monra
+Pufferfish,5000,152208,Rare,N,30.44,"[""Frozen"", ""Petrified"", ""Sandstoned""]",21.69,Monra
+Pufferfish,5000,188448,Rare,N,37.69,"[""Frozen"", ""Eclipsed"", ""Petrified""]",21.41,Monra
+Pufferfish,5000,28992,Rare,N,5.80,"[""Shiny""]",22.25,Monra
+BD Axolotl,2500000,989699,Mythical,Y,0.40,"[""Frozen"", ""Shiny""]",13.92,Monra
+Anchovy,50,1133,Common,Y,22.66,"[""Frozen"", ""Petrified"", ""Sandstoned""]",0.93,Monra
+Pufferfish,5000,137712,Rare,N,27.54,"[""Frozen"", ""Sandstoned""]",19.50,Monra
+Blue Tang,12000,153000,Epic,N,12.75,"[""Rainbow""]",0.23,Monra
+Catfish,1000,1096,Uncommon,Y,1.10,"[""Frozen"", ""Petrified"", ""Shiny""]",24.35,Monra
+Catfish,1000,2088,Uncommon,Y,2.09,"[""Frozen"", ""Eclipsed""]",22.52,Monra
+Catfish,1000,2262,Uncommon,Y,2.26,"[""Frozen"", ""Neon"", ""Sandstoned""]",21.67,Monra
+Catfish,1000,1827,Uncommon,Y,1.83,"[""Frozen"", ""Petrified"", ""Sandstoned""]",21.91,Monra
+Catfish,1000,1434,Uncommon,Y,1.43,"[""Frozen"", ""Neon""]",26.07,Monra
+Dark Jaw,650000,2267502,Mythical,Y,3.49,"[""Frozen"", ""Eclipsed""]",61.39,Monra
+Dark Jaw,650000,93449,Mythical,Y,0.14,[],60.72,Monra
+Dark Jaw,650000,905472,Mythical,Y,1.39,"[""Frozen"", ""Rainbow""]",44.50,Monra
+Lionfish,120000,38312,Mythical,Y,0.32,"[""Frozen""]",2.28,Monra
+Lionfish,120000,38312,Mythical,Y,0.32,"[""Frozen""]",2.26,Monra
+Lionfish,120000,249028,Mythical,Y,2.08,"[""Frozen"", ""Neon"", ""Sandstoned""]",2.78,Monra
+Lionfish,120000,268184,Mythical,Y,2.23,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Neon""]",2.26,Monra
+Lionfish,120000,259942,Mythical,Y,2.17,"[""Sandstoned"", ""Frozen""]",4.18,Monra
+Salamander,2500000,846637,Epic,N,0.34,"[""Frozen""]",14.06,Monra
+Salamander,2500000,481732,Epic,N,0.19,"[""Frozen""]",5.92,Monra
+Salmon,3250,3960,Rare,Y,1.22,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Shiny""]",0.92,Monra
+Blue Tang,12000,17000,Epic,N,1.42,[],0.20,Monra
+Blue Tang,12000,17000,Epic,N,1.42,[],0.24,Monra
+Blue Tang,12000,374000,Epic,N,31.17,"[""Frozen"", ""Sandstoned"", ""Shiny""]",0.22,Monra
+Blue Tang,12000,68000,Epic,N,5.67,"[""Frozen""]",0.21,Monra
+Blue Tang,12000,99240,Epic,N,8.27,"[""Frozen""]",0.37,Monra
+Squid,1000000,7259353,Fishy,N,7.26,"[""Frozen""]",61.42,Monra
+Squid,1000000,28508664,Fishy,N,28.51,"[""Frozen"", ""Sandstoned""]",42.97,Monra
+Squid,1000000,6344547,Fishy,N,6.34,"[""Frozen""]",53.68,Monra
+Tuna,1000,31036,Rare,N,31.04,"[""Frozen"", ""Rainbow""]",34.95,Monra
+Tuna,1000,33138,Rare,N,33.14,"[""Eclipsed""]",22.75,Monra
+Koi,50000,84120,Legendary,Y,1.68,"[""Frozen"", ""Petrified"", ""Sandstoned"", ""Shiny""]",2.81,Monra
+Koi,50000,77110,Legendary,Y,1.54,"[""Frozen"", ""Sandstoned"", ""Shiny""]",2.85,Monra
+Koi,50000,21030,Legendary,Y,0.42,"[""Frozen"", ""Petrified""]",2.81,Monra
+Koi,50000,19820,Legendary,Y,0.40,"[""Frozen""]",3.15,Monra
+Koi,50000,38555,Legendary,Y,0.77,"[""Frozen"", ""Neon""]",2.43,Monra
+Koi,50000,5286,Legendary,Y,0.11,[],3.36,Monra
+Clownfish,15000,6000,Epic,Y,0.40,"[""Frozen""]",0.22,Monra
+Clownfish,15000,31500,Epic,Y,2.10,"[""Frozen"", ""Petrified"", ""Sandstoned""]",0.19,Monra
+Clownfish,15000,44690,Epic,Y,2.98,"[""Sandstoned"", ""Frozen""]",0.39,Monra
+Clownfish,15000,9409,Epic,Y,0.63,"[""Frozen""]",0.39,Monra
+Clownfish,15000,6000,Epic,Y,0.40,"[""Frozen""]",0.16,Monra
+Bass,400,42,Uncommon,Y,0.10,[],1.90,Monra
+Bass,400,1806,Uncommon,Y,4.51,"[""Frozen"", ""Neon"", ""Sandstoned"", ""Shiny""]",2.83,Monra
+Bass,400,523,Uncommon,Y,1.31,"[""Frozen"", ""Sandstoned""]",1.25,Monra
+Salmon,3250,7667,Rare,Y,2.36,"[""Frozen"", ""Sandstoned"", ""Shiny""]",1.33,Monra
+Lionfish,120000,240042,Mythical,Y,2.00,"[""Sandstoned"", ""Frozen""]",3.86,Monra
+Salmon,3250,3135,Rare,Y,0.96,"[""Sandstoned"", ""Frozen""]",0.88,Monra
+Goldfish,6000,893,Epic,Y,0.15,[],2.85,Monra
+Tuna,1000,11459,Rare,N,11.46,"[""Frozen""]",38.71,Monra
+BD Axolotl,2500000,2109305,Mythical,Y,0.84,"[""Sandstoned"", ""Frozen""]",10.93,Monra
+BD Axolotl,2500000,321824,Mythical,Y,0.13,"[""Frozen""]",6.69,Monra
+Swordfish,100000,1814873,Legendary,N,18.15,"[""Frozen"", ""Petrified"", ""Shiny""]",38.65,Monra
+Pufferfish,5000,262382,Rare,N,52.48,"[""Frozen"", ""Sandstoned"", ""Shiny""]",36.81,Monra
+Pufferfish,5000,243593,Rare,N,48.72,"[""Frozen"", ""Sandstoned""]",39.57,Monra
+Salmon,3250,10839,Rare,Y,3.34,"[""Frozen"", ""Petrified"", ""Sandstoned""]",1.97,Monra
+Sunset Axolotl,2500000,500372,Legendary,N,0.20,"[""Frozen""]",5.33,Monra
+Tuna,1000,72781,Rare,N,72.78,"[""Sandstoned"", ""Eclipsed""]",27.32,Monra
+Goldfish,6000,4533,Epic,Y,0.76,"[""Frozen""]",3.62,Monra
+Goldfish,6000,28308,Epic,Y,4.72,"[""Sandstoned"", ""Frozen""]",4.76,Monra
+Cosmic Narwhal,4000000,9981934,Fishy,Y,2.50,"[""Sandstoned""]",419.55,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],301.78,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],301.27,Aliy
+Cosmic Narwhal,4000000,8141500,Fishy,Y,2.04,"[""Frozen"", ""Sandstoned""]",301.74,Aliy
+Cosmic Narwhal,4000000,1111979,Fishy,Y,0.28,[],747.80,Aliy
+Cosmic Narwhal,4000000,518547,Fishy,Y,0.13,[],348.72,Aliy
+Cosmic Narwhal,4000000,3817724,Fishy,Y,0.95,"[""Frozen""]",64185.00,Aliy
+Cosmic Narwhal,4000000,1714000,Fishy,Y,0.43,"[""Frozen""]",300.92,Aliy
+Cosmic Narwhal,4000000,606518,Fishy,Y,0.15,[],407.88,Aliy
+Cosmic Narwhal,4000000,515514,Fishy,Y,0.13,[],346.68,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],300.61,Aliy
+Cosmic Narwhal,4000000,478145,Fishy,Y,0.12,[],321.55,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],300.51,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],300.60,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],300.44,Aliy
+Cosmic Narwhal,4000000,926639,Fishy,Y,0.23,[],623.16,Aliy
+Cosmic Narwhal,4000000,494740,Fishy,Y,0.12,[],332.71,Aliy
+Cosmic Narwhal,4000000,477238,Fishy,Y,0.12,[],320.94,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],300.76,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],300.70,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],301.13,Aliy
+Cosmic Narwhal,4000000,477803,Fishy,Y,0.12,[],321.32,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],300.46,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],300.78,Aliy
+Cosmic Narwhal,4000000,428500,Fishy,Y,0.11,[],300.30,Aliy
+Cosmic Narwhal,4000000,930996,Fishy,Y,0.23,[],626.09,Aliy
+Hammerhead,500000,3806941,Mythical,Y,7.61,"[""Frozen"", ""Sandstoned"", ""Shiny""]",33.91,Monra
+Hammerhead,500000,5053195,Mythical,Y,10.11,"[""Frozen"", ""Eclipsed""]",41.26,Monra
+Hammerhead,500000,4056351,Mythical,Y,8.11,"[""Frozen"", ""Eclipsed"", ""Sandstoned""]",20.76,Monra
+Hammerhead,500000,4368378,Mythical,Y,8.74,"[""Frozen"", ""Eclipsed"", ""Sandstoned"", ""Shiny""]",20.06,Monra
+Hammerhead,500000,1144099,Mythical,Y,2.29,"[""Frozen"", ""Neon""]",21.05,Monra
+Hammerhead,500000,3286843,Mythical,Y,6.57,"[""Sandstoned"", ""Frozen""]",33.90,Monra
+Hammerhead,500000,3744324,Mythical,Y,7.49,"[""Sandstoned"", ""Eclipsed""]",18.26,Monra
+Megalodon,1000000,9515307,Fishy,Y,9.52,"[""Sandstoned"", ""Frozen""]",1153.93,Monra
+Dark Jaw,650000,1433664,Mythical,Y,2.21,"[""Frozen"", ""Sandstoned""]",43.76,Monra
+Dark Jaw,650000,1433664,Mythical,Y,2.21,"[""Frozen"", ""Sandstoned""]",43.11,Monra
